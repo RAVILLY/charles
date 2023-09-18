@@ -1,0 +1,94 @@
+<!doctype html>
+
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="contacter.css">
+
+    <title>contacter</title>
+
+    <meta name="description" content="Photographie, images : 
+  Photographe professionnelle propose un large choix d'images dans plusieurs domaines." />
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1 class="titre">ME CONTACTER</h1>
+
+        <img class="image" src="images/CC.jpg">
+
+    </div>
+
+    <div class="contact-wrapper">
+
+        <form class="form-horizontal" method="post" action="contact.php">
+
+            <h2 class="section-header">Posez-nous vos questions !</h2>
+
+            <label for="name">Nom</label>
+
+            <input type="text" id="name" placeholder="nom" name="name" required>
+
+            <label for="prenom">Prénom</label>
+
+            <input type="text" id="prenom" placeholder="Prénom" name="prenom" required>
+
+
+
+            <label for="email">Email</label>
+
+            <input type="email" id="email" placeholder="email@mail.com" name="email" required>
+
+
+
+            <label for="phone">Téléphone</label>
+
+            <input type="tel" id="phone" placeholder="0600000000" name="phone">
+
+
+
+            <label for="message">Message</label>
+
+            <textarea rows="10" id="message" name="message" required></textarea>
+
+            <button class="send-button" id="submit" type="submit">Envoyer</button>
+
+            <div class="advert-wrapper">
+
+                <p>Souhaitez-vous recevoir nos news ?</p>
+
+                <input type="radio" id="yes" name="news-question" value="yes" checked>
+
+                <label for="yes">Oui</label>
+
+                <input type="radio" id="no" name="news-question" value="no">
+
+                <label for="no">Non</label>
+
+            </div>
+
+        </form>
+
+    </div>
+
+    <footer class="foot">
+        
+        <lien class="pied">
+
+        <a c href="index.html">Accueil</a>
+
+        <a href="Galerie.html">Galeries de photos</a>
+
+        <a href="Tarifs.html">Les tarifs</a>
+
+    </lien>
+
+    </footer>
+
+</body>
+
+</html>

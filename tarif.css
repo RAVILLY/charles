@@ -1,0 +1,87 @@
+body{
+    background-color: rgb(144, 141, 141);
+}
+
+h1{
+  font-family: cursive, Gotham, Tahoma, sans-serif;
+  font-size: 48px;
+  margin-top: 40px;
+  padding-left: 120px;
+  height: 130px;
+  width: 800px;
+  float: left;
+  color: white; 
+  text-shadow: black 0.1em 0.1em 0.2em;
+  margin-bottom: 0;
+}
+
+img{
+    margin-top: 20px;
+    margin-right: 40px;
+    padding-right: 0px;
+    height: 200px;
+    width: 200px;
+    float: right;
+    border: 2px solid #000000;
+    box-shadow:8px 8px 10px 0 rgba(0,0,0,0.5);
+}
+
+table{
+  border-collapse: collapse;
+  width: 100%;
+  font-family: cursive, Gotham, Tahoma, sans-serif;
+  font-size: 20px;
+}
+
+table, th, td{
+  border: 5px solid white;
+  height: 70px;
+  text-align: center;
+}
+
+td{
+  
+  padding: 10px;
+}
+
+.gras{
+  font-weight: bold;
+}
+
+a {
+  color: #050505;
+  font-family: cursive, Gotham, Tahoma, sans-serif;
+}
+
+.breadcrumb {
+    padding: 0 .5rem;
+}
+
+.breadcrumb ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 30px;
+}
+    
+.breadcrumb li:not(:last-child)::after {
+    display: inline-block;
+    margin: 0 .25rem;
+    content: ">>";
+}
+
+footer {
+  background: rgb(254, 254, 254);
+  text-align: center;
+  position: relative;
+  left: 25%;
+  width: 40%;
+  display: flex;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 30px;
+   /* Les éléments sont répartis équitablement*/
+  justify-content:space-between;
+  margin-top: 10px;
+}

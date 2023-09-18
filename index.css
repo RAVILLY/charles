@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url("images/spider-web-6677845_960_720.jpg")no-repeat center fixed;
+    -webkit-background-size: cover;
+    /* pour anciens Chrome et Safari */
+    background-size: cover;
+    /* version standardisée */
+}
+
+h1 {
+    font-family: cursive, Gotham, Tahoma, sans-serif;
+    font-size: 60px;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    /* postulat de départ */
+    top: 50%;
+    /* à 50%/50% du parent référent */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* décalage de 50% de sa propre taille */
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em
+}
+
+footer {
+    background: rgb(254, 254, 254);
+    text-align: center;
+    position: absolute;
+    bottom: 40px;
+    left: 25%;
+    width: 50%;
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 30px;
+    /* Les éléments sont répartis équitablement*/
+    justify-content: space-between;
+}
+
+a {
+    color: #050505;
+    font-family: cursive, Gotham, Tahoma, sans-serif;
+}
+
+img {
+    margin-top: 30px;
+    padding-right: 30px;
+    height: 200px;
+    width: 200px;
+    float: right;
+
+}
+
+
+/* Styles pour les petits écrans, ordinateurs portables */
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+    .body {
+        max-width: 100%;
+        height: 480px;
+    }
+
+    .cc {
+        height: 200px;
+        max-width: 200px;
+    }
+
+    .titre {
+        font-size: 40px;
+        color: #fc0404;
+    }
+
+
+    .col {
+        justify-content: space-between;
+        margin-bottom: 10px;
+        font-size: 15px;
+        width: 300px;
+    }
+
+    footer{
+
+        width: 85%;
+        left: 8%;
+    }
+
+}
+
+/* Styles pour les écrans de tablettes */
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+
+    .body {
+        max-width: 100%;
+        height: 480px;
+    }
+
+    .cc {
+        height: 150px;
+        max-width: 150px;
+    }
+
+    .titre {
+        font-size: 30px;
+        color: #f3fc04;
+    }
+
+
+    .col {
+        justify-content: space-between;
+        margin-bottom: 10px;
+        font-size: 15px;
+        width: 300px;
+    }
+
+    footer{
+
+        width: 85%;
+        left: 8%;
+    }
+
+}
+
+/* Styles pour les écrans mobiles */
+
+@media screen and (min-width:200px) and (max-width: 480px) {
+
+    .body {
+        max-width: 100%;
+        height: 480px;
+    }
+
+    .cc {
+        height: 100px;
+        max-width: 100px;
+    }
+
+    .titre {
+        font-size: 15px;
+        color: #4CAF50;
+    }
+
+
+    .col {
+        justify-content: space-between;
+        margin-bottom: 10px;
+        font-size: 10px;
+        width: 300px;
+    }
+
+    footer{
+
+        width: 85%;
+        left: 20px;
+    }
+
+}
